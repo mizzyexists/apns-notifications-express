@@ -37,7 +37,7 @@ note.payload = {
 note.topic = "dev.mizzy.testapp";
 
 var apnProvider = new apn.Provider(apnOptions);
-let deviceToken = "a9d0ed10e9cfd022a61cb08753f49c5a0b0dfb383697bf9f9d750a1003da19c7";
+let deviceToken = "";
 
 apnProvider.send(note, deviceToken).then( (result) => {
     if(result.sent.length < 1){
