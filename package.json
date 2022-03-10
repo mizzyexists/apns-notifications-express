@@ -1,0 +1,25 @@
+{
+  "name": "apns-notifications-express",
+  "version": "1.0.0",
+  "description": "Apple Push Notification Express Server for sending push notifications to iOS Devices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mizzyexists/apns-notifications-express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mizzyexists/apns-notifications-express/issues"
+  },
+  "homepage": "https://github.com/mizzyexists/apns-notifications-express#readme",
+  "dependencies": {
+    "@parse/node-apn": "^5.1.0",
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  }
+}
