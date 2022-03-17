@@ -15,9 +15,9 @@ app.use('/uploads', express.static('server/uploads'));
 
 var apnOptions = {
 token: {
-    key: "AuthKey_6X8332MY23.p8",
-    keyId: "6X8332MY23",
-    teamId: "JEQ3DXEHB3"
+    key: "",
+    keyId: "",
+    teamId: ""
 },
 production: false
 };
@@ -31,8 +31,6 @@ note.body = "This is the body!";
 note.contentAvailable = 1;
 note.payload = {
     'from': 'test app',
-    experienceId: '@mizzyexists/yourProjectSlug', // Required when testing in the Expo Go app
-    scopeKey: '@mizzyexists/yourProjectSlug', // Required when testing in the Expo Go app
 };
 note.topic = "dev.mizzy.testapp";
 
